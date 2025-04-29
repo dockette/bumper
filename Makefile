@@ -2,8 +2,8 @@ DOCKER_PLATFORM=linux/amd64
 
 .PHONY: repack-windmill
 repack-windmill:
-	$(MAKE) _repack ORIGIN_IMAGE=ghcr.io/windmill-labs/windmill:1.475.1 NEW_IMAGE=bump/windmill:windmill-1.475.1
-	$(MAKE) _repack ORIGIN_IMAGE=ghcr.io/windmill-labs/windmill-lsp:1.475.1 NEW_IMAGE=bump/windmill:lsp-1.475.1
+	$(MAKE) _repack ORIGIN_IMAGE=ghcr.io/windmill-labs/windmill:1.483.1 NEW_IMAGE=bump/windmill:windmill-1.483.1
+	$(MAKE) _repack ORIGIN_IMAGE=ghcr.io/windmill-labs/windmill-lsp:1.483.1 NEW_IMAGE=bump/windmill:lsp-1.483.1
 
 .PHONY: _repack
 _repack:
