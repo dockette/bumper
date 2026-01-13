@@ -23,5 +23,5 @@ This repository is a collection of Docker images that I use in my daily work. I 
 
 | Original Image | Our Image | Note |
 |----------------|-----------|------|
-| `ghcr.io/windmill-labs/windmill:1.483.1` | `bump/windmill:windmill-1.483.1` | [Author](https://github.com/windmill-labs/windmill) |
-| `ghcr.io/windmill-labs/windmill-lsp:1.483.1` | `bump/windmill:lsp-1.483.1` | [Author](https://github.com/windmill-labs/windmill) |
+| `ghcr.io/windmill-labs/windmill:v1.603.4` | `bump/windmill:windmill-v1.603.4` | [Author](https://github.com/windmill-labs/windmill) |
+| `ghcr.io/windmill-labs/windmill-lsp:v1.603.4` | `bump/windmill:lsp-v1.603.4` | [Author](https://github.com/windmill-labs/windmill) |
