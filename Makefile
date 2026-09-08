@@ -1,10 +1,10 @@
 DOCKER_PLATFORM=linux/amd64
-WINDMILL_VERSION=1.603.4
+WINDMILL_VERSION=1.800.0
 
 .PHONY: repack-windmill
 repack-windmill:
 	${MAKE} _repack ORIGIN_IMAGE=ghcr.io/windmill-labs/windmill:${WINDMILL_VERSION} NEW_IMAGE=bump/windmill:windmill-${WINDMILL_VERSION}
-	${MAKE} _repack ORIGIN_IMAGE=ghcr.io/windmill-labs/windmill-lsp:${WINDMILL_VERSION} NEW_IMAGE=bump/windmill:lsp-${WINDMILL_VERSION}
+	${MAKE} _repack ORIGIN_IMAGE=ghcr.io/windmill-labs/windmill-extra:${WINDMILL_VERSION} NEW_IMAGE=bump/windmill:extra-${WINDMILL_VERSION}	
 
 .PHONY: _repack
 _repack:
